@@ -1,0 +1,34 @@
+@import url("header.css");
+@import url("slider.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #000; /* Cor de fundo para bordas que não tenham imagens */
+    color: var(--texto);
+}
+
+:root{
+    --texto: #F1FFFA;
+    --cor1: #CCFCCB;
+    --cor2: #96E6B3;
+    --cor3: #568259;
+    --cor4: #464E47;
+}
+
+
+
