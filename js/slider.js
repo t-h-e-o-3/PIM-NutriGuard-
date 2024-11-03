@@ -1,3 +1,5 @@
+// slider.js
+
 let currentSlide = 0;
 const slides = document.querySelectorAll(".slide");
 
@@ -25,3 +27,4 @@ function prevSlide() {
 
 // Inicia o slider mostrando o primeiro slide
 showSlide(currentSlide);
+
