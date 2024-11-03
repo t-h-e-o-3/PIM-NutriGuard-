@@ -1,11 +1,15 @@
 @import url("header.css");
 @import url("slider.css");
+@import url("main.css");
+@import url("rodape.css");
+@import url("grafico.css");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
+    color: var(--texto);
 }
 
 html, body {
@@ -14,12 +18,7 @@ html, body {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #000; /* Cor de fundo para bordas que não tenham imagens */
-    color: var(--texto);
+    background-color: var(--cor4);
 }
 
 :root{
@@ -29,6 +28,3 @@ body {
     --cor3: #568259;
     --cor4: #464E47;
 }
-
-
-
