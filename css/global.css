@@ -5,6 +5,10 @@
 @import url("grafico.css");
 @import url("produtos.css");
 @import url("sobre.css");
+@import url("login.css");
+@import url("cadastro.css");
+@import url("senha.css");
+
 
 * {
     margin: 0;
