@@ -1,0 +1,66 @@
+.container-secoes {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Espaçamento entre as seções */
+    max-width: 1200px;
+    margin: 40px;
+}
+
+.secao {
+    display: flex;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    flex: 1;
+}
+
+.texto {
+    background: #568259;
+    border-radius: 50px;
+    position: absolute; /* Posiciona o texto sobre a imagem */
+    top: 20px; /* Ajusta a posição do texto em relação à imagem */
+    left: 150px;
+    max-width: 400px;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.texto h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #F1FFFA;
+}
+
+
+.texto button {
+    background-color: #F1FFFA;
+    color: #464E47;
+    padding: 10px 20px;
+    border: 1px solid #464E47;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.texto button:hover {
+    background-color: #464E47;
+    color: #F1FFFA;
+}
+
+.imagem-principal {
+    width: 300px; /* Largura da imagem */
+    height: 400px; /* Altura da imagem */
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
