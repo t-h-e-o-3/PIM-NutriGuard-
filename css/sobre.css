@@ -1,9 +1,9 @@
 .main {
-    background-image: url('/wwwroot/arquivos/imagem2.jpg');
+    background-image: url('/arquivos/imagem2.jpg');
     background-size: cover;
     background-position: center; /* centraliza a imagem de fundo */
     position: relative; /* define o contexto de posicionamento para o conteúdo sobreposto */
-    height: 300vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
+    height: 200vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
 }
 
 .container {
@@ -20,7 +20,7 @@
 }
 
 .paragrafo {
-    font-size: 18px; 
+    font-size: 16px; 
     line-height: 1.6;
     margin: 20px 0; 
     color: #F1FFFA; 

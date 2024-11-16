@@ -1,24 +1,22 @@
 .produtos {
-    display: flex; /* Define Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    background-image: url('/wwwroot/arquivos/imagem3.jpg');
+    background-image: url('/arquivos/imagem3.jpg');
     background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 250vh; /* Garante que ocupa a altura total da tela */
+    background-position: center; /* centraliza a imagem de fundo */
+    position: relative; /* define o contexto de posicionamento para o conteúdo sobreposto */
+    height: 200vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
 }
 
 
 .container-produtos {
     position: absolute;
-    margin-top: 50px;
     padding: 10px;
     width: 100%;
     width: 950px;
     height: 800px;
     display: flex;
     flex-wrap: wrap; /* Permite quebra de linha */
+    margin-top: 200px; 
+    margin-left: 250px;
     backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.3);
     border-radius: 50px;
@@ -63,4 +61,5 @@
     background-color: #568259;
     color: #F1FFFA;
 }
+
 

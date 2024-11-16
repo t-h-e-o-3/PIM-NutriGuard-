@@ -1,26 +1,23 @@
-#register-page {
-    display: flex; /* Define Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    background-image: url('/wwwroot/arquivos/imagem1.jpg');
+.register-page{
+    background-image: url('/arquivos/imagem1.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 150vh; /* Garante que ocupa a altura total da tela */
+    height: 100vh;
 }
 
-
-
 .register-container {
+    position: absolute;
     backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.3);
     padding: 40px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+    margin-left: 550px;
     width: 400px;
     height: 500px;
 }
-
 
 .register-form {
     display: flex;

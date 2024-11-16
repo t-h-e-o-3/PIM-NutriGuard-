@@ -1,38 +1,37 @@
-.login-page{
-    display: flex; /* Define Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    background-image: url('/wwwroot/arquivos/imagem1.jpg');
+.password-page{
+    background-image: url('/arquivos/imagem1.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 150vh; /* Garante que ocupa a altura total da tela */
+    height: 100vh;
 }
 
-.login-container {
+.password-container {
     position: absolute;
     backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.3);
     padding: 40px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+    margin-left: 550px;
     width: 400px;
     height: 500px;
 }
 
-.login-form {
+.password-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #F1FFFA;
 }
 
-.login-form h2 {
+.password-form h2 {
     margin-bottom: 25px;
     font-size: 26px; /* Aumenta o tamanho do título */
 }
 
-.input-group {
+.input-group-s {
     width: 100%;
     margin-bottom: 20px;
     position: relative;
@@ -40,21 +39,21 @@
     align-items: center;
 }
 
-.input-group i {
+.input-group-s i {
     position: absolute;
     left: 10px;
     color: #568259; /* Cor do ícone */
     font-size: 18px;
 }
 
-.input-group label {
+.input-group-s label {
     display: block;
     font-size: 14px;
     color: #F1FFFA;
     margin-bottom: 5px;
 }
 
-.input-group input {
+.input-group-s input {
     width: 100%;
     padding: 12px; /* Aumenta o padding dos inputs */
     border: none;
@@ -85,7 +84,7 @@
     background-color: #464E47;
 }
 
-.links-login {
+.links-password {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,13 +93,13 @@
     margin: 15px 0;
 }
 
-.links-login a {
+.links-password a {
     padding-top: 10px;
     font-size: 14px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.links-login a:hover {
+.links-password a:hover {
     color: #96E6B3;
 }

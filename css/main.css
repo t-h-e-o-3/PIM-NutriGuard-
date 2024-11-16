@@ -1,16 +1,16 @@
 .container-secoes {
     display: flex;
     flex-direction: row;
-    gap: 5px; /* Espaçamento entre as seções */
+    gap: 40px; /* Espaçamento entre as seções */
     max-width: 1200px;
-    margin: 40px;
+    margin: 10px;
 }
 
 .secao {
     display: flex;
     gap: 20px; /* Espaçamento entre a imagem e o texto */
     align-items: center;
-    padding: 30px;
+    padding: 70px;
     border-radius: 20px;
     position: relative;
     flex: 1;

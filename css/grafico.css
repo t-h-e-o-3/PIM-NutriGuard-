@@ -1,6 +1,5 @@
 /* Estilo do título */
 .titulo {
-    margin-top: 250px;
     text-align: center;
     color: #F1FFFA;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -13,7 +12,7 @@
     align-items: center;
     padding: 10px;
     margin: 100px auto;
-    max-width: 100%;
+    max-width: 90%;
     gap: 20px;
     backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.3);
@@ -30,12 +29,9 @@
   
   .graficos{
     padding: 50px;
-    background: url('/wwwroot/arquivos/imagem12.jpg');
+    background: url('/arquivos/imagem12.jpg');
     background-size: cover;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+    margin: 50px;
     border-radius: 50px;
   }

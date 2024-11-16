@@ -1,16 +1,14 @@
 .cart-background{
-    display: flex; /* Define Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    background-image: url("/wwwroot/arquivos/imagem5.jpg");
+    background-image: url("/arquivos/imagem5.jpg");
     background-size: cover;
     background-position: center; /* centraliza a imagem de fundo */
     position: relative; /* define o contexto de posicionamento para o conteúdo sobreposto */
-    height: 250vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
+    height: 200vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
 }
 .cart-container {
     position: absolute;
     width: 950px;
+    margin: 100px 150px;
     padding: 2rem;
     backdrop-filter: blur(8px);
     background: rgba(0, 0, 0, 0.3);
@@ -125,7 +123,7 @@
 
 .checkout-btn {
     background-color: var(--cor2);
-    color: var(--texto);
+    color: var(--bg-primario);
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 20px;
