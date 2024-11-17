@@ -1,0 +1,41 @@
+/* Estilo do título */
+.titulo {
+  margin-top: 250px;
+  text-align: center;
+  color: #F1FFFA;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Container principal com fundo para ambos os gráficos */
+.container-graficos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 100px auto;
+  max-width: 100%;
+  gap: 20px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+
+/* Estilo dos gráficos individuais */
+.grafico-container {
+  width: 50%; /* Cada gráfico ocupa metade do container */
+  padding: 20px;
+  border-radius: 50px;
+  max-width: 500px;
+}
+
+.graficos{
+  padding: 50px;
+  background: url('/frontend/arquivos/imagem12.jpg');
+  background-size: cover;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+}

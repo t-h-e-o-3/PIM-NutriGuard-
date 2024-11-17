@@ -1,0 +1,66 @@
+.produtos {
+    display: flex; /* Define Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-image: url('/frontend/arquivos/imagem3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250vh; /* Garante que ocupa a altura total da tela */
+}
+
+
+.container-produtos {
+    position: absolute;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+    width: 950px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+.produto {
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    margin: 10px; /* Espaço ao redor de cada produto */
+}
+
+.produto p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #F1FFFA;
+    padding: 10px;
+    max-width: 300px;
+    flex: 1 1 300px;
+    margin-bottom: 10px; /* Espaço entre o texto e o botão */
+}
+
+.imagem {
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.container-produtos button {
+    background-color: #F1FFFA;
+    color: #568259;
+    padding: 10px 20px;
+    border: 1px solid #568259;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 0;
+    transition: background-color 0.3s;
+}
+.container-produtos button:hover {
+    background-color: #568259;
+    color: #F1FFFA;
+}
+
