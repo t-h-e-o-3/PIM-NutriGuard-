@@ -158,5 +158,18 @@
     .cart-item{
       flex-direction: column;
     }
+
+    .login-page{
+      height: 200vh;
+    }
+
+    #register-page{
+      height: 200vh;
+    }
+
+    .password-page{
+      height: 200vh;
+    }
+
 }
 
