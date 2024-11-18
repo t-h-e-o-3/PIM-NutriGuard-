@@ -11,6 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" type="imagex/png" href="arquivos/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
     <title>NutriGuard</title>
 </head>
 <body>
@@ -22,6 +23,28 @@
           <a href="login.html" class="nav-link">Login</a>
           <a href="carrinho.html" class="nav-link"><i class='bx bx-cart'></i> Carrinho</a>
         </nav>
+        <div>
+      
+          <div class="btn-abrir-menu">
+            <i class="bi bi-list"></i>
+          </div>
+          <div class="menu-overlay"></div>
+          <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+              <i class="bi bi-x"></i>
+            </div>
+            <script src="js/home/header.js"></script>
+            <div class="overlay-menu"></div>
+          <nav>
+            <a href="sobre.html" class="nav-link2">Sobre</a>
+            <a href="produtos.html" class="nav-link2">Produtos</a>
+            <a href="login.html" class="nav-link2">Login</a>
+            <a href="carrinho.html" class="nav-link2"><i class='bx bx-cart'></i> Carrinho</a>
+          </nav>
+
+        </div>
+        
+        </div>
       </header>
         <div class="slider-container">
             <!-- Slides com imagem de fundo e texto -->
@@ -68,27 +91,6 @@
               <img src="/frontend/arquivos/imagem11.jpg" class="imagem-principal">
             </div>
           </main>
-          <h2 class="titulo">Produção e Nível de Água</h2>
-          <div class="graficos">
-
-          <!-- Container Principal para os Gráficos -->
-          <div class="container-graficos">
-            <!-- Gráfico de Produção -->
-            <div class="grafico-container">
-              <canvas id="graficoProducao"></canvas>
-            </div>
-            
-            <!-- Gráfico de Nível de Água -->
-            <div class="grafico-container">
-              <canvas id="graficoNivelAgua"></canvas>
-            </div>
-          </div>
-        </div>
-          
-          <!-- Script da Biblioteca Chart.js -->
-          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-          <script src="/frontend/js/home/grafico.js"></script>
-          </div>
           <footer>
             <div class="rodape-conteudo">
                 <ul class="links-rodape">

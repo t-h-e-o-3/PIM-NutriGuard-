@@ -1,0 +1,162 @@
+@media screen and (max-width: 1020px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      
+      /* Imagem do Navbar (logo) */
+      .navbar img {
+        width: 50px;
+      }
+
+    .nav-link{
+      display:none;
+    }
+
+    .nav-link2{
+        display: block;
+        padding: 20px 8%;
+        text-align: right;
+        font-size: 30px;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .nav-link2:hover{
+        background-color: var(--cor1);
+        color: var(--cor3);
+      }
+
+      .btn-fechar {
+        display: flex;
+        justify-content: start; /* Alinha à esquerda */
+        padding: 20px 4%;
+      }
+      
+      .btn-fechar i {
+        color: var(--cor3); /* Substitua por uma cor válida */
+        font-size: 50px; /* Tamanho do ícone */
+        cursor: pointer; /* Mostra que é clicável */
+      }
+      
+
+      .menu-overlay {
+        display: none; /* Escondido por padrão */
+        position: fixed; /* Fixa o fundo na tela inteira */
+        top: 0;
+        left: 0;
+        width: 100vw; /* Largura total da viewport */
+        height: 100vh; /* Altura total da viewport */
+        background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+        z-index: 99; /* Atrás do menu */
+      }
+      
+      .menu-mobile {
+        display: none; /* Escondido por padrão */
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%; /* Largura do menu */
+        height: 100vh; /* Altura total do menu */
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px); /* Aplica o desfoque */
+        -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2); /* Sombra na borda */
+        z-index: 100; /* Acima do overlay */
+      }
+      
+      .menu-mobile.abrir-menu {
+        display: block; /* Exibe o menu */
+      }
+      
+      
+      .btn-abrir-menu {
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+      }
+      
+      .btn-abrir-menu i {
+        color: var(--cor3); /* Cor do ícone */
+        font-size: 40px;
+        cursor: pointer;
+      }
+      
+      .menu-mobile.abrir-menu + .menu-overlay {
+        display: block; /* Mostra o fundo escuro quando o menu é aberto */
+      }
+      
+       /* Alterar direção do layout para coluna em telas menores */
+       .container-secoes {
+        flex-direction: column;
+        align-items: center; /* Centraliza as seções */
+    }
+
+    .secao {
+        flex-direction: column;
+        align-items: center; /* Centraliza a imagem e o texto */
+        padding: 10px;
+        
+    }
+
+    /* Ajusta o texto sobre a imagem */
+    .texto {
+        position: relative; /* Muda para relativo para o texto não sobrepor a imagem */
+        top: 0;
+        left: 0;
+        max-width: 90%; /* Ajusta a largura do texto */
+        padding: 15px;
+    }
+
+    /* Ajusta a imagem */
+    .imagem-principal {
+        width: 100%; /* Ajusta a largura da imagem */
+        height: auto; /* Ajusta a altura da imagem proporcionalmente */
+    }
+
+    .rodape-conteudo {
+        display: flex;
+        justify-content: space-around; /* distribui o espaço uniformemente */
+        max-width: 1200px; /* largura máxima para limitar o conteúdo centralizado */
+        margin-left: 50px;
+        padding-top: 50px;
+        flex-direction: column; /* Permite que os itens se movam para a linha seguinte em telas pequenas */
+    }
+
+    .main{
+      height: 450vh; /* define a altura para cobrir a tela inteira, ajuste conforme necessário */
+    }
+
+    .produtos{
+      height: 650vh; /* Garante que ocupa a altura total da tela */
+    }
+
+    .container-produtos{
+      width: 300px;
+      height: 4000px;
+      flex-wrap: wrap;
+    }
+
+    .produto{
+      flex-direction: column; /* Organiza os itens em uma coluna */
+    }
+
+    .cart-background{
+      height: 490vh;
+    }
+
+    .cart-container{
+      width: 300px;
+    }
+
+    .cart-items{
+      flex-wrap: wrap;
+    }
+
+    .cart-item{
+      flex-direction: column;
+    }
+}
+

@@ -14,6 +14,7 @@
     border-radius: 20px;
     position: relative;
     flex: 1;
+    margin-bottom: 150px;
 }
 
 .texto {
@@ -37,23 +38,6 @@
 .texto p {
     font-size: 15px;
     line-height: 1.6;
-    color: #F1FFFA;
-}
-
-
-.texto button {
-    background-color: #F1FFFA;
-    color: #464E47;
-    padding: 10px 20px;
-    border: 1px solid #464E47;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 10px;
-}
-
-.texto button:hover {
-    background-color: #464E47;
     color: #F1FFFA;
 }
 
