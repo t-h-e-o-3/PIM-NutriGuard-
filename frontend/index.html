@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/frontend/css/global.css">
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@
             <button class="prev" onclick="prevSlide()">&#10094;</button>
             <button class="next" onclick="nextSlide()">&#10095;</button>
           </div>
-          <script src="/frontend/js/home/slider.js"></script>
+          <script src="js/home/slider.js"></script>
 
           <main class="container-secoes">
             <div class="secao">
@@ -71,7 +71,7 @@
               <p>Na NutriGuard, nosso compromisso com a sustentabilidade está presente em cada etapa do cultivo e produção. Criamos uma fazenda urbana que utiliza técnicas inovadoras, como a hidroponia e o cultivo vertical, reduzindo o uso de água em até 90% comparado à agricultura tradicional. Além disso, nossa estrutura de produção local nos permite minimizar a emissão de carbono e o desperdício, entregando alimentos frescos diretamente para a sua mesa em menos tempo.
               </p>
             </div>
-            <img src="/frontend/arquivos/imagem9.jpg" class="imagem-principal">
+            <img src="arquivos/imagem9.jpg" class="imagem-principal">
             </div>
             <div class="secao">
               <div class="texto">
@@ -79,7 +79,7 @@
               <p>Em nossa fazenda urbana, cultivamos alimentos livres de agrotóxicos e produtos químicos nocivos. Utilizamos métodos de cultivo natural e um controle rigoroso da qualidade, para garantir que você tenha acesso a alimentos frescos, seguros e nutritivos, direto da nossa horta para a sua mesa.
               </p>
               </div>
-              <img src="/frontend/arquivos/imagem10.jpg" class="imagem-principal">
+              <img src="arquivos/imagem10.jpg" class="imagem-principal">
             </div>
             <div class="secao">
               <div class="texto">
@@ -88,9 +88,33 @@
                 Com uma produção local e eficiente, evitamos o impacto ambiental causado pela agricultura extensiva e protegemos o ecossistema ao nosso redor.
               </p>
               </div>
-              <img src="/frontend/arquivos/imagem11.jpg" class="imagem-principal">
+              <img src="arquivos/imagem11.jpg" class="imagem-principal">
             </div>
           </main>
+<<<<<<< HEAD
+=======
+          <h2 class="titulo">Produção e Nível de Água</h2>
+          <div class="graficos">
+
+          <!-- Container Principal para os Gráficos -->
+          <div class="container-graficos">
+            <!-- Gráfico de Produção -->
+            <div class="grafico-container">
+              <canvas id="graficoProducao"></canvas>
+            </div>
+            
+            <!-- Gráfico de Nível de Água -->
+            <div class="grafico-container">
+              <canvas id="graficoNivelAgua"></canvas>
+            </div>
+          </div>
+        </div>
+          
+          <!-- Script da Biblioteca Chart.js -->
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <script src="js/home/grafico.js"></script>
+          </div>
+>>>>>>> 51c3d24d07a24a7a7c2a32e882be6a39185e437e
           <footer>
             <div class="rodape-conteudo">
                 <ul class="links-rodape">
