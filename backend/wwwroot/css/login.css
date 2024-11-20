@@ -2,7 +2,7 @@
     display: flex; /* Define Flexbox */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    background-image: url('/wwwroot/arquivos/imagem1.jpg');
+    background-image: url('/backend/wwwroot/arquivos/imagem1.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
