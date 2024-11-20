@@ -1,5 +1,5 @@
 .main {
-    background-image: url('/backend/wwwroot/arquivos/imagem2.jpg');
+    background-image: url('/arquivos/imagem2.jpg');
     background-size: cover;
     background-position: center; /* centraliza a imagem de fundo */
     position: relative; /* define o contexto de posicionamento para o conteúdo sobreposto */

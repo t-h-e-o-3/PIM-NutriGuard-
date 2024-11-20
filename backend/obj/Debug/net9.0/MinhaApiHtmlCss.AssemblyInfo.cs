@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinhaApiHtmlCss")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bfadac727deead859393cb1bd09bf6c53378a28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bebcb175c0ac19550323bd644deab39e2c920ed2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinhaApiHtmlCss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinhaApiHtmlCss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
