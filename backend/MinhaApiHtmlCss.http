@@ -1,6 +1,0 @@
-@MinhaApiHtmlCss_HostAddress = http://localhost:5137
-
-GET {{MinhaApiHtmlCss_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
