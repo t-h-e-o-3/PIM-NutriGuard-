@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\icon.png",
+      "PackagePath": "staticwebassets\\arquivos\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem1.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem10.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem11.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem12.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem2.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem3.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem4.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem5.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem6.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem7.png",
+      "PackagePath": "staticwebassets\\arquivos\\imagem7.png"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem8.png",
+      "PackagePath": "staticwebassets\\arquivos\\imagem8.png"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\imagem9.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\imagem9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\logo.png",
+      "PackagePath": "staticwebassets\\arquivos\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto1.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto2.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto3.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto4.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto5.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\arquivos\\produto6.jpg",
+      "PackagePath": "staticwebassets\\arquivos\\produto6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\cadastro.html",
+      "PackagePath": "staticwebassets\\cadastro.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\carrinho.html",
+      "PackagePath": "staticwebassets\\carrinho.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\carrinho.css",
+      "PackagePath": "staticwebassets\\css\\carrinho.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\global.css",
+      "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\produtos.css",
+      "PackagePath": "staticwebassets\\css\\produtos.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\rodape.css",
+      "PackagePath": "staticwebassets\\css\\rodape.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\senha.css",
+      "PackagePath": "staticwebassets\\css\\senha.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\slider.css",
+      "PackagePath": "staticwebassets\\css\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\css\\sobre.css",
+      "PackagePath": "staticwebassets\\css\\sobre.css"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\esqueceu-senha.html",
+      "PackagePath": "staticwebassets\\esqueceu-senha.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\js\\cadastro\\cadastro.js",
+      "PackagePath": "staticwebassets\\js\\cadastro\\cadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\js\\carrinho\\carrinho.js",
+      "PackagePath": "staticwebassets\\js\\carrinho\\carrinho.js"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\js\\home\\slider.js",
+      "PackagePath": "staticwebassets\\js\\home\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\js\\login\\login.js",
+      "PackagePath": "staticwebassets\\js\\login\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\produtos.html",
+      "PackagePath": "staticwebassets\\produtos.html"
+    },
+    {
+      "Id": "C:\\Users\\sqtvr\\OneDrive\\Documentos\\GitHub\\PIM-NutriGuard-\\backend\\wwwroot\\sobre.html",
+      "PackagePath": "staticwebassets\\sobre.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MinhaApiHtmlCss.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MinhaApiHtmlCss.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MinhaApiHtmlCss.props",
+      "PackagePath": "build\\MinhaApiHtmlCss.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MinhaApiHtmlCss.props",
+      "PackagePath": "buildMultiTargeting\\MinhaApiHtmlCss.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MinhaApiHtmlCss.props",
+      "PackagePath": "buildTransitive\\MinhaApiHtmlCss.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

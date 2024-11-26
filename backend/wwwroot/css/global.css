@@ -1,0 +1,38 @@
+@import url("header.css");
+@import url("slider.css");
+@import url("main.css");
+@import url("rodape.css");
+@import url("grafico.css");
+@import url("produtos.css");
+@import url("sobre.css");
+@import url("login.css");
+@import url("cadastro.css");
+@import url("senha.css");
+@import url("carrinho.css");
+@import url("responsivo.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    color: var(--texto);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+:root{
+    --texto: #F1FFFA;
+    --cor1: #CCFCCB;
+    --cor2: #96E6B3;
+    --cor3: #568259;
+    --cor4: #464E47;
+}
